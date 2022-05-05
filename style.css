@@ -185,6 +185,7 @@ input:focus {
   outline-color: #4a6ed6;
   border: none;
   box-shadow: 2px 2px 5px #bebebe;
+  box-shadow: 2px 2px 5px #383838;
 }
 
 label {
