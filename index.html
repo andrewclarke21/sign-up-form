@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <link rel="stylesheet" href="style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -75,11 +75,12 @@
           <div class="form-row-3">
         <div class="form-flex-container">
             <label for="password">Password</label>
-            <input type="password" name="password" id="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
+            <input type="password" name="password" id="password"   title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" />
+            <p class="password-verify password-verify-hidden" for="password">* Passwords do not match</p>
           </div>
           <div class="form-flex-container">
             <label for="confirm-password">Confirm Password</label>
-            <input type="password" name="confirm-password" id="confirm-password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
+            <input type="password" name="confirm-password" id="confirm-password"   title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" />
           </div>
           </div>
           <div class="bottom-sign-up">
